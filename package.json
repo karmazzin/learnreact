@@ -20,9 +20,13 @@
     "bluebird": "^3.4.6"
   },
   "devDependencies": {
+    "babel-eslint": "^6.1.2",
     "babel-loader": "^6.2.5",
     "clean-webpack-plugin": "^0.1.10",
     "css-loader": "^0.25.0",
+    "eslint": "^3.5.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-react": "^6.2.2",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "html-loader": "^0.4.4",
