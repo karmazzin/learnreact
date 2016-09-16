@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV='production' node node_modules/webpack/bin/webpack -p",
+    "nodemon": "NODE_PATH=./src nodemon server.js",
     "webpack-devserver": "node node_modules/webpack-dev-server/bin/webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8050 --host 0.0.0.0"
   },
   "author": "",
@@ -34,6 +35,7 @@
     "json-loader": "^0.5.4",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
+    "nodemon": "^1.10.2",
     "postcss-loader": "^0.13.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
